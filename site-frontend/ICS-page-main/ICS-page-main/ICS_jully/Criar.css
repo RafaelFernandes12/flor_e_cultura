@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Cabeçalho*/
+
+header{
+    background-color: #213E25;
+    display: flex;
+    color: aliceblue;
+}
+header section h2 a{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+header section h2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -10px;
+
+}
+header section h2{
+    padding-left: 80px;
+}
+header section{
+    display: flex;
+    float: left;
+}
+header section h1 a img{
+    height: 100px;
+    position: absolute;
+}
+header section.Vector a img{
+    height: 35px;
+    margin: 20px;
+    padding-left: 1600px;
+}
+section.title h2 a{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic
+}
+section.title h2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -10px;
+
+}
+section.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Forms{
+    padding-left: 30%;
+
+
+}
+.Forms p{
+    float: left;
+    margin-top: 20px;
+
+}
+.Box input{
+    background: #fff;
+    border: 2px solid #2c2c2c;
+    border-radius: 4px;
+    color: #424242;
+    cursor: pointer;
+    padding: 10px 0px 10px 240px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 64px;
+
+  
+}
+.Box1 input{
+    background: #fff;
+    border: 2px solid #2c2c2c;
+    border-radius: 4px;
+    color: #424242;
+    cursor: pointer;
+    padding: 10px 0px 10px 240px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 100px;
+  
+}
+.Box2 input{
+    background: #fff;
+    border: 2px solid #2c2c2c;
+    border-radius: 4px;
+    color: #424242;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+input[type="file"] {
+    display: none;
+}
+label {
+    padding: 10px;
+    width: 200px;
+    background: #fff;
+    border: 2px solid #2c2c2c;
+    border-radius: 4px;
+    color: #424242;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+button{
+    cursor: pointer;
+    display: flex ;
+    text-decoration: none;
+    padding: 10px;
+    color: #E1E2E6;
+    background-color: #213E25;
+    font-family: 'Montserrat',sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 8px;
+    justify-content:center ;  
+    margin-top: 40px;
+    margin-left: 25%;
+}
