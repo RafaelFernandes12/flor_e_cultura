@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Cabeçalho*/
+
+header{
+    background-color: #213E25;
+    display: flex;
+    color: aliceblue;
+}
+header section h2 a{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+header section h2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -10px;
+
+}
+header section h2{
+    padding-left: 80px;
+}
+header section{
+    display: flex;
+    float: left;
+}
+header section h1 img{
+    height: 100px;
+    position: absolute;
+}
+header section.Vector img{
+    height: 35px;
+    margin: 20px;
+    padding-left: 1600px;
+}
+
+/*Nav*/
+
+section.title h2 a{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic
+}
+section.title h2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -10px;
+
+}
+section.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav div.Tag{
+    background-color: #213E25;
+    max-width: 150px;
+    height: 0;
+    margin-left: 70px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #ffff;
+    border-bottom: 20px solid transparent;
+}
+nav div h3{
+    font-family: 'poppins', sans-serif;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+/*Posts*/
+
+.List{
+    display: flex;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+div.Post{
+    margin-left: 30px;
+    background-color: #E1E2E6;
+    padding: 1rem;
+
+}
+div.Post p{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.Post a{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+.Post a.button{
+    display: inline;
+    text-decoration: none;
+    margin: 2rem;
+    padding: 7px ;
+    color: #E1E2E6;
+    background-color: #213E25;
+}
+a.button{
+    display: inline;
+    text-decoration: none;
+    margin: 2rem;
+    padding: 7px ;
+    color: #E1E2E6;
+    background-color: #213E25;
+    max-width: 20px;
+    border-radius: 8px;
+}
+
+button {
+    display: inline;
+    text-decoration: none;
+    margin: 2rem;
+    padding: 7px ;
+    color: #E1E2E6;
+    background-color: #213E25;
+    max-width: 20rem;
+    border-radius: 8px;
+    cursor: pointer
+}
+
+td, th {
+    padding-right: 4rem;
+}
